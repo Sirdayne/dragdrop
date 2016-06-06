@@ -1,0 +1,30 @@
+$area-color: rgba(115,15,15,0.8);
+$area-height: 100vh;
+$area-width: 100vw;
+
+$block-color: rgba(155,155,155,0.5);
+$block-height: 10vh;
+$block-width: 10vh;
+
+
+#area{
+    height: $area-height;
+    width: $area-width;
+    background: $area-color; 
+
+    #block{
+        position: absolute;
+
+        height: $block-height;
+        width: $block-width;
+
+        top: 45vh;
+        left: 45vw;
+        background: $block-color;
+        
+        &:hover{
+        cursor: pointer;
+            
+        }
+    }
+}

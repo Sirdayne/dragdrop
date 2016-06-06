@@ -1,0 +1,15 @@
+#area {
+  height: 100vh;
+  width: 100vw;
+  background: rgba(115, 15, 15, 0.8); }
+  #area #block {
+    position: absolute;
+    height: 10vh;
+    width: 10vh;
+    top: 45vh;
+    left: 45vw;
+    background: rgba(155, 155, 155, 0.5); }
+    #area #block:hover {
+      cursor: pointer; }
+
+/*# sourceMappingURL=style.css.map */
